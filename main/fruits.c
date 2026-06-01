@@ -6,6 +6,8 @@
 #include <stdint.h>
 
 #include "driver/gpio.h"
+
+#define CONFIG_TOUCH_SUPPRESS_DEPRECATE_WARN 1
 #include "driver/touch_pad.h"
 #include "esp_err.h"
 #include "esp_log.h"
